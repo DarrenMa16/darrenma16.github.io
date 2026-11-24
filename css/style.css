@@ -53,6 +53,24 @@ main {
   margin: 0.75rem 0 0;
 }
 
+.social-links a {
+  display: block;
+  color: var(--accent);
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-links a:hover,
+.social-links a:focus-visible {
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.social-links svg {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
 .logo svg { width: 120px; height: auto; display: block; }
 .logo-fill { fill: var(--accent); transition: fill 0.3s ease; }
 .logo:hover .logo-fill,
