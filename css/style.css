@@ -1,17 +1,12 @@
 /* Default Colour Theme */
 :root {
-
-  --blue-1: #1B365D;
-  --blue-2: #005A9C;
-  --blue-3: #60C1E5;
-  --blue-4: #A0E0EF;
-
-  --bg: var(--blue-1);
-  --surface: var(--blue-2);
-  --text: #ffffff;
-  --accent: var(--blue-3);
-  --accent-hover: var(--blue-4);
-  --border: var(--blue-3);
+  --bg: #1e1e1e;
+  --surface: #252526;
+  --text: #d4d4d4;
+  --accent: #569cd6;
+  --accent-text: #9cdcfe;
+  --accent-hover: #9cdcfe;
+  --border: #3c3c3c;
 
   --font-mono: "JetBrains Mono", Consolas, Menlo, monospace;
 }
@@ -226,6 +221,10 @@ a:focus-visible { color: var(--accent-hover); }
   padding: 0.15rem 0.6rem;
   border: 1px solid var(--border);
   border-radius: 999px;
+}
+
+.project-desc {
+  font-size: 0.8rem;
 }
 
 /* Mobile default */
